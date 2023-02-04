@@ -146,7 +146,7 @@ namespace CoinConSodaServer.Models
         private static Balance NewChangeBank() {
             Balance NewChangeBank = new();
             NewChangeBank.AddCoins(new Coins { CoinType = CoinType.TenCents, Count = 30 });
-            NewChangeBank.AddCoins(new Coins { CoinType = CoinType.TwentyCents, Count = 10 });
+            NewChangeBank.AddCoins(new Coins { CoinType = CoinType.TwentyCents, Count = 15 });
             return NewChangeBank;
         }
 
